@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1520455432 source:d:\zadanie6\main.cpp
+	<iostream>
+	<cmath>
+	"triangle.hpp"
+	"point.hpp"
+
+1520455055 d:\zadanie6\triangle.hpp
+	"point.hpp"
+
+1520456522 d:\zadanie6\point.hpp
+
+1520455997 source:d:\zadanie6\point.cpp
+	"point.hpp"
+
+1520455997 source:d:\zadanie6\triangle.cpp
+	"triangle.hpp"
+	"point.hpp"
+	<cmath>
+
