@@ -11,7 +11,7 @@ void resetVec(vector<int> &v, int a, int b){
 int main(){
 	vector<int> v;
 	for(int i=0; i<10; i++){
-       		v.push_back(i*i)
+       		v.push_back(i*i);
     	}
 
 	resetVec(v, 3, 7);
