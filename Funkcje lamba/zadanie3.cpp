@@ -17,7 +17,7 @@ void sortVec(vector<Point> &v){
 int main(){
 	vector<Point> v;
    	for(int i=0; i<5; i++){
-	v.push_back({i+i, i*i});
+		v.push_back({i+i, i*i});
     	}
     
 	cout<<"Przed sortowaniem"<<endl;
