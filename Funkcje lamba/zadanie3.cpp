@@ -5,7 +5,7 @@
 using namespace std;
 
 struct Point{
-    float x;
+	float x;
 	float y;
 };
 
@@ -15,20 +15,19 @@ void sortVec(vector<Point> &v){
 }
 
 int main(){
-	
 	vector<Point> v;
-    for(int i=0; i<5; i++){
-        v.push_back({i+i, i*i});
-    }
+   	for(int i=0; i<5; i++){
+	v.push_back({i+i, i*i});
+    	}
     
-    cout<<"Przed sortowaniem"<<endl;
-    for(int i=0; i<5; i++){
+	cout<<"Przed sortowaniem"<<endl;
+ 	for(int i=0; i<5; i++){
  		cout<< v[i].x <<" "<< v[i].y <<endl;    
 	}
        
-    cout<<"Po sortowaniu"<<endl;
-    sortVec(v);
-    for(int i=0; i<5; i++){
+    	cout<<"Po sortowaniu"<<endl;
+    	sortVec(v);
+    	for(int i=0; i<5; i++){
  		cout<< v[i].x <<" "<< v[i].y <<endl;    
 	}  
 	
